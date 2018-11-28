@@ -7,7 +7,7 @@ To Upload images, you must specify an endpoint to which the image has to be uplo
 The Input for the endpoint is a string can be provided directly or via `config` property
 
 ```html
-<app-ngx-editor imageEndPoint="http://myApiEndPoint"></app-ngx-editor>
+<ngx-editor imageEndPoint="http://myApiEndPoint"></ngx-editor>
 ```
 
 ## Response
