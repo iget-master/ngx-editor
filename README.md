@@ -1,23 +1,23 @@
-# NgxEditor
+# IgetEditor
 
 <p align="center">
-  <a href="https://github.com/sibiraj-s/ngx-editor">
-   <img src="https://raw.githubusercontent.com/sibiraj-s/ngx-editor/master/src/assets/icons/ngx-editor.png" alt="ngxEditor">
+  <a href="https://github.com/sibiraj-s/iget-editor">
+   <img src="https://raw.githubusercontent.com/sibiraj-s/iget-editor/master/src/assets/icons/iget-editor.png" alt="IgetEditor">
   </a>
 </p>
 <p align="center">A Simple WYSIWYG Editor for Angular 6 Applications.</p>
 <p align="center">
-  <a href="https://travis-ci.org/sibiraj-s/ngx-editor">
-    <img alt="Build Status" src="https://travis-ci.org/sibiraj-s/ngx-editor.svg?branch=master">
+  <a href="https://travis-ci.org/sibiraj-s/iget-editor">
+    <img alt="Build Status" src="https://travis-ci.org/sibiraj-s/iget-editor.svg?branch=master">
   </a>
-  <a href="https://www.npmjs.com/package/ngx-editor">
-    <img alt="npm version" src="https://img.shields.io/npm/v/ngx-editor.svg">
+  <a href="https://www.npmjs.com/package/iget-editor">
+    <img alt="npm version" src="https://img.shields.io/npm/v/iget-editor.svg">
   </a>
-  <a href="https://www.npmjs.com/package/ngx-editor">
-    <img alt="npm" src="https://img.shields.io/npm/dm/ngx-editor.svg">
+  <a href="https://www.npmjs.com/package/iget-editor">
+    <img alt="npm" src="https://img.shields.io/npm/dm/iget-editor.svg">
   </a>
-  <a href="https://github.com/sibiraj-s/ngx-editor/blob/master/LICENSE">
-    <img alt="licence" src="https://img.shields.io/npm/l/ngx-editor.svg">
+  <a href="https://github.com/sibiraj-s/iget-editor/blob/master/LICENSE">
+    <img alt="licence" src="https://img.shields.io/npm/l/iget-editor.svg">
   </a>
 </p>
 
@@ -28,20 +28,20 @@
 Install via Package managers such as [npm][npm] or [yarn][yarn]
 
 ```bash
-npm install ngx-editor --save
+npm install iget-editor --save
 # or
-yarn add ngx-editor
+yarn add iget-editor
 ```
 
 ### Usage
 
-Import `ngx-editor` module
+Import `iget-editor` module
 
 ```typescript
-import { NgxEditorModule } from 'ngx-editor';
+import { IgetEditorModule } from 'iget-editor';
 
 @NgModule({
-  imports: [ NgxEditorModule ]
+  imports: [ IgetEditorModule ]
 })
 ```
 
@@ -50,14 +50,14 @@ Import [font-awesome](https://github.com/FortAwesome/Font-Awesome) into your app
 Then in HTML
 
 ```html
-<ngx-editor [placeholder]="'Enter text here...'" [spellcheck]="true" [(ngModel)]="htmlContent"></ngx-editor>
+<iget-editor [placeholder]="'Enter text here...'" [spellcheck]="true" [(ngModel)]="htmlContent"></iget-editor>
 ```
 
 For `ngModel` to work, You must import `FormsModule` from `@angular/forms`
 
 #### PeerDependencies
 
-`ngx-editor` depeneds on the following libraries to work.
+`iget-editor` depeneds on the following libraries to work.
 
 * [Font-Awesome v4.7.0](https://github.com/FortAwesome/Font-Awesome/tree/fa-4)
 * [Ngx-Bootstrap](https://github.com/valor-software/ngx-bootstrap)
@@ -73,14 +73,14 @@ All Evergreen-Browsers are supported
 
 ## Demo
 
-Demo at stackblitz [ngx-editor](https://ngx-editor.stackblitz.io/)
+Demo at stackblitz [iget-editor](https://iget-editor.stackblitz.io/)
 
 ## Documentation
 
-Documentation is auto-generated using [compodoc][compodoc], and can be viewed here: [https://sibiraj-s.github.io/ngx-editor/](https://sibiraj-s.github.io/ngx-editor/)
+Documentation is auto-generated using [compodoc][compodoc], and can be viewed here: [https://sibiraj-s.github.io/iget-editor/](https://sibiraj-s.github.io/iget-editor/)
 
 [npm]: https://www.npmjs.com/
 [yarn]: https://yarnpkg.com/lang/en/
 [github]: https://sibiraj-s.github.io/
-[wiki]:https://github.com/sibiraj-s/ngx-editor/wiki/ngxEditor
+[wiki]:https://github.com/sibiraj-s/iget-editor/wiki/IgetEditor
 [compodoc]: https://compodoc.github.io/website/

@@ -1,14 +1,14 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'ngx-demo-app',
+  selector: 'iget-editor-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
 
 export class AppComponent {
-  title = 'ngx-editor';
+  title = 'iget-editor';
 
   editorConfig = {
     editable: true,

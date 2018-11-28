@@ -19,7 +19,7 @@ _A feature: Description of the feature. Cause and its Motivation_
 ### Version Information
 
 ```
-ngx-editor: x.x.x
+iget-editor: x.x.x
 angular: x.x.x
 ```
 
