@@ -10,8 +10,8 @@ import {IgetEditorToolbarComponent} from '../iget-editor-toolbar/iget-editor-too
 import {IgetEditorToolbarGroupComponent} from '../iget-editor-toolbar-group/iget-editor-toolbar-group.component';
 
 describe('IgetEditorToolbarButtonComponent', () => {
-  let component: IgetEditorToolbarButtonComponent;
-  let fixture: ComponentFixture<IgetEditorToolbarButtonComponent>;
+  // let component: IgetEditorToolbarButtonComponent;
+  // let fixture: ComponentFixture<IgetEditorToolbarButtonComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
