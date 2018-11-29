@@ -5,7 +5,6 @@ import { IgetEditorComponent } from './iget-editor.component';
 import { IgetEditorGrippieComponent } from './iget-editor-grippie/iget-editor-grippie.component';
 import { IgetEditorToolbarComponent } from './iget-editor-toolbar/iget-editor-toolbar.component';
 import { IgetEditorMessageComponent } from './iget-editor-message/iget-editor-message.component';
-import { PopoverModule } from 'ngx-bootstrap';
 import { MessageService } from './common/services/message.service';
 import { CommandExecutorService } from './common/services/command-executor.service';
 import {MatButtonModule, MatIconModule, MatMenuModule} from '@angular/material';
@@ -21,7 +20,6 @@ describe('IgetEditorComponent', () => {
       imports: [
         FormsModule,
         ReactiveFormsModule,
-        PopoverModule.forRoot(),
         HttpClientModule,
         MatIconModule,
         MatButtonModule,

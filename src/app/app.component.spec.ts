@@ -33,6 +33,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h6').textContent).toContain('A Simple WYSIWYG Editor for Angular 6 Applications.');
+    expect(compiled.querySelector('h6').textContent).toContain('A WYSIWYG Editor for Angular Material applications.');
   });
 });

@@ -2,7 +2,6 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { IgetEditorToolbarGroupComponent } from './iget-editor-toolbar-group.component';
-import { PopoverModule } from 'ngx-bootstrap';
 import { CommandExecutorService } from '../common/services/command-executor.service';
 import { MessageService } from '../common/services/message.service';
 import {MatButtonModule, MatIconModule, MatMenuModule} from '@angular/material';
@@ -18,7 +17,6 @@ describe('IgetEditorToolbarGroupComponent', () => {
       imports: [
         FormsModule,
         ReactiveFormsModule,
-        PopoverModule.forRoot(),
         HttpClientModule,
         MatIconModule,
         MatButtonModule,

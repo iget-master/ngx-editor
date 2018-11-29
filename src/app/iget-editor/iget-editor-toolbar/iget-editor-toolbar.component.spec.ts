@@ -3,10 +3,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { IgetEditorToolbarComponent } from './iget-editor-toolbar.component';
 import { IgetEditorConfig } from '../common/iget-editor.defaults';
-import { PopoverModule } from 'ngx-bootstrap';
 import { CommandExecutorService } from '../common/services/command-executor.service';
 import { MessageService } from '../common/services/message.service';
-import {MatButtonModule, MatIconModule, MatMenuModule} from '@angular/material';
+import {MatButtonModule, MatDialogModule, MatIconModule, MatMenuModule} from '@angular/material';
 import {IgetEditorToolbarGroupComponent} from '../iget-editor-toolbar-group/iget-editor-toolbar-group.component';
 import {IgetEditorToolbarButtonComponent} from '../iget-editor-toolbar-button/iget-editor-toolbar-button.component';
 
@@ -19,11 +18,11 @@ describe('IgetEditorToolbarComponent', () => {
       imports: [
         FormsModule,
         ReactiveFormsModule,
-        PopoverModule.forRoot(),
         HttpClientModule,
         MatIconModule,
         MatButtonModule,
-        MatMenuModule
+        MatMenuModule,
+        MatDialogModule,
       ],
       declarations: [
         IgetEditorToolbarComponent,
