@@ -10,8 +10,8 @@ import {IgetEditorToolbarComponent} from '../iget-editor-toolbar/iget-editor-too
 import {IgetEditorToolbarGroupComponent} from '../iget-editor-toolbar-group/iget-editor-toolbar-group.component';
 
 describe('IgetEditorToolbarButtonComponent', () => {
-  // let component: IgetEditorToolbarButtonComponent;
-  // let fixture: ComponentFixture<IgetEditorToolbarButtonComponent>;
+  let component: IgetEditorToolbarButtonComponent;
+  let fixture: ComponentFixture<IgetEditorToolbarButtonComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -29,19 +29,22 @@ describe('IgetEditorToolbarButtonComponent', () => {
         IgetEditorToolbarGroupComponent,
         IgetEditorToolbarButtonComponent
       ],
-      providers: [CommandExecutorService, MessageService]
+      providers: [
+        CommandExecutorService,
+        MessageService,
+        IgetEditorToolbarComponent,
+      ]
     })
       .compileComponents();
   }));
 
-  // @todo: uncomment and fix it
-  // beforeEach(() => {
-  //   fixture = TestBed.createComponent(IgetEditorToolbarButtonComponent);
-  //   component = fixture.componentInstance;
-  //   fixture.detectChanges();
-  // });
-  //
-  // it('should create', () => {
-  //   expect(component).toBeTruthy();
-  // });
+  beforeEach(() => {
+    fixture = TestBed.createComponent(IgetEditorToolbarButtonComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
 });

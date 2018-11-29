@@ -1,5 +1,9 @@
+// Import theming functions
+@import '~@angular/material/theming';
+
 .iget-editor {
   position: relative;
+  border: 1px solid mat-color($mat-gray, 300);
 
   ::ng-deep [contenteditable="true"]:empty:before {
     content: attr(placeholder);
@@ -8,13 +12,12 @@
     opacity: 1;
   }
 
-  .ngx-wrapper {
+  .iget-editor-wrapper {
     position: relative;
 
     .iget-editor-textarea {
       min-height: 5rem;
       padding: 0.5rem 0.8rem 1rem 0.8rem;
-      border: 1px solid #ddd;
       background-color: transparent;
       overflow-x: hidden;
       overflow-y: auto;
@@ -52,5 +55,9 @@
         display: block;
       }
     }
+  }
+
+  iget-editor-toolbar {
+    margin: 1rem;
   }
 }
